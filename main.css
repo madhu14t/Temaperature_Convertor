@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('background.jpeg') no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.text-box {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    border: px solid #efe9e9;
+    box-shadow: black;
+    border-radius: 15px; /* Rounded corners for the container */
+    width: 40%; /* Adjust the width to your preference */
+    margin: auto; /* Center the container */
+    margin-top: 15%;
+    padding: 20px; /* Add padding for better spacing */
+    align-items: center;
+    text-align: center;
+}
+.inputs{
+    display: flex;
+    margin-bottom: 25px;
+}
+.inputs p{
+    margin-top: 5px;
+    font-size: 24px ;
+    margin-right: 15px;
+}
+
+.text-box input {
+    height: 40px;
+    width: 50%; /* Input spans the entire width of the container */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #B0B3B9;
+}
+
+.text-box button {
+    
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #49c628a6;
+    background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+}
+
+
+.text-box #result{
+    margin-top: 15px;
+    font-size: 24px ;
+    font-weight: 100;
+}
